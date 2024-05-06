@@ -4,15 +4,22 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^4.0.2"
   },
   "author": "",
   "license": "ISC",
   "type": "module",
   "dependencies": {
+    "@babel/preset-env": "^7.24.5",
+    "babel-jest": "^29.7.0",
     "express": "^4.19.2",
     "mongodb": "^6.5.0",
     "mongoose": "^8.3.3",
+    "ts-jest": "^29.1.2",
     "typescript": "^5.4.5"
   }
 }
